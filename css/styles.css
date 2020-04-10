@@ -1,0 +1,143 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+body ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, .skills-list {
+  font-family: 'Major Mono Display', monospace;
+}
+
+img {
+  /* this is limiting the width of the image, so it takes 100% width of the parent */
+  max-width: 110%;
+}
+
+nav {
+  background-color: #E9FFDF;
+  position: fixed;
+  z-index: 1;
+  width: 100%
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px; /* 0 refers to top and bottom an 15px refers to left and right */
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+header {
+  top: 70px; /* it can also be used for left or right, instead of top */
+  position: relative;
+  margin-bottom: 220px;
+  background-color: #E9FFDF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -145px;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 130%;
+  color: salmon;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 130%;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+h2, .projects {
+  color: salmon;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+p {
+line-height: 150%;
+}
+
+.button {
+  border: 1px solid salmon;
+  text-decoration: none;
+  color: salmon;
+  padding: 10px 20px;
+  margin-top: 40px;
+  display: inline-block; /*to make it its own block, piece*/
+  border-radius: 20px;
+  transition: background 0.5s ease-in-out, color0.5s ease-in-out;
+  margin-bottom: 70px;
+}
+
+.button:hover {
+  background: salmon;
+  color: white;
+}
+
+figcaption {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.intro-img {
+  margin-top: 30px;
+  width:130%
+}
+
+.skills-list {
+  text-align: center;
+  font-size: 31px;
+  line-height: 150%;
+  margin-bottom: 130px;
+}
+
+.class {
+  margin: 70px;
+}
+
+.project {
+  margin: 30px 0;
+  padding: 50px;
+  background-color: #E9FFDF;
+}
+
+footer {
+  text-align: center;
+  margin: 70px;
+}
+
+footer h2 {
+  font-size: 30px;
+  margin-bottom:70px;
+}
+
+.right-alignment {
+  text-align: right;
+}
